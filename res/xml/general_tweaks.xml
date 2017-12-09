@@ -28,4 +28,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_category">
+
+        <Preference
+           android:key="gesture_anywhere"
+           android:fragment="com.fusion.reactor.gestureanywhere.GestureAnywhereSettings"
+           android:title="@string/gesture_anywhere_title" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
