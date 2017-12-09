@@ -51,4 +51,10 @@
             android:targetClass="org.omnirom.device.DeviceSettings"/>
     </Preference>
 
+    <Preference
+        android:key="gesture_anywhere"
+        android:fragment="com.fusion.reactor.gestureanywhere.GestureAnywhereSettings"
+        android:title="@string/gesture_anywhere_title" 
+        android:icon="@drawable/ic_arrow" />
+
 </PreferenceScreen>

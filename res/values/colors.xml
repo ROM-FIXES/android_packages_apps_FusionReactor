@@ -32,4 +32,7 @@
     <color name="dt_tab_inactive_text_color">@*android:color/accent_device_default_dark</color>
     <color name="dt_tab_background_color">@android:color/transparent</color>
 
+    <!-- Gesture Anywhere -->
+    <color name="ga_gesture_color">@color/material_deep_teal_500</color>
+
 </resources>
